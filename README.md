@@ -1,5 +1,5 @@
 # CellTowerProblem
-### Author: Patton Nelson, assistance from Karthik Suresh
+### Author: Patton Nelson with assistance from Karthik Suresh
 
 An exploration of integrating neural networks into a multi-objective optimization problem.
 
