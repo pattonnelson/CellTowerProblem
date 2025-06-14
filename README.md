@@ -1,6 +1,7 @@
 # CellTowerProblem
 An exploration of integrating neural networks into a multi-objective optimization problem.
-Author: Patton Nelson, assistance from Karthik Suresh 
+
+Author: Patton Nelson, assistance from Karthik Suresh
 
 This project builds upon a prior problem utilizing the NSGA-II multi-objective optimization algorithm in order to optimize cost and coverage in a simulated region with four generations of cell towers. Each generation of cell tower increases in radius of coverage while simulataneously increasing in cost. The simulated region is approximated to be 25 x 25 miles, with an average of 30 towers to be included. To improve efficiency of this problem I built a neural network using PyTorch to act as a surrogate model that can be passed into the NSGA-II algorithm rather than the simulation itself. This largely improves computational expenses so that the model can be used on a larger scale.
 
